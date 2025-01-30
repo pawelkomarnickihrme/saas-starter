@@ -1,11 +1,12 @@
-import { CVData } from "../../app/api/extract-cv/route";
-import { Education } from "./Education";
-import { Header } from "./Header";
-import { Projects } from "./Projects";
-import { Skills } from "./Skills";
-import { Summary } from "./Summary";
-import { CommandMenu } from "./ui/command-menu";
+// import { Metadata } from "next";
 import { WorkExperience } from "./WorkExperience";
+import { Projects } from "./Projects";
+import { Education } from "./Education";
+import { Summary } from "./Summary";
+import { Skills } from "./Skills";
+import { Header } from "./Header";
+import { CVData } from "../../app/api/extract-cv/route";
+import { CommandMenu } from "./ui/command-menu";
 
 // export const metadata: Metadata = {
 //   title: `${cvData.name} - Resume`,

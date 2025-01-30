@@ -1,5 +1,5 @@
-import { Badge } from "@/components/ui/badge";
-import { Section } from "@/components/ui/section";
+import { Badge } from "@/components/cv/ui/badge";
+import { Section } from "@/components/cv/ui/section";
 import { CVData } from "../../app/api/extract-cv/route";
 import { cn } from "../../lib/utils";
 

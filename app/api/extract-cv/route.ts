@@ -148,7 +148,7 @@ export async function POST(request: NextRequest) {
         },
       ],
     });
-    saveCVData(object);
+    // saveCVData(object);
     //saveToDatabase(object);
     return NextResponse.json(object);
   } catch (error) {

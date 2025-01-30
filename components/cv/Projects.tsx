@@ -1,12 +1,12 @@
-import { Badge } from "../../ui/badge";
+import { Badge } from "../../components/cv/ui/badge";
 import {
   Card,
   CardHeader,
   CardTitle,
   CardDescription,
   CardContent,
-} from "../../ui/card";
-import { Section } from "../../ui/section";
+} from "../../components/cv/ui/card";
+import { Section } from "../../components/cv/ui/section";
 import { CVData } from "../../app/api/extract-cv/route";
 
 type ProjectTags = readonly string[];

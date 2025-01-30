@@ -1,11 +1,14 @@
-import { Button } from '@/components/ui/button';
-import { ArrowRight, CreditCard, Database } from 'lucide-react';
-import { Terminal } from './terminal';
+import { Button } from "@/components/ui/button";
+import { ArrowRight, CreditCard, Database } from "lucide-react";
+import { Terminal } from "./terminal";
+import CV from "../../components/cv";
 
 export default function HomePage() {
   return (
     <main>
       <section className="py-20">
+        <CV />
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
@@ -13,6 +16,7 @@ export default function HomePage() {
                 Build Your SaaS
                 <span className="block text-orange-500">Faster Than Ever</span>
               </h1>
+              <CV />
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 Launch your SaaS product in record time with our powerful,
                 ready-to-use template. Packed with modern technologies and

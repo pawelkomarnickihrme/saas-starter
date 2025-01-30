@@ -10,9 +10,9 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@/components/ui/command";
+} from "./command";
 import { CommandIcon } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "./button";
 
 interface Props {
   links: { url: string; title: string }[];

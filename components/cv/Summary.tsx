@@ -1,5 +1,5 @@
-import { Section } from "../../ui/section";
 import { CVData } from "../../app/api/extract-cv/route";
+import { Section } from "./ui/section";
 
 interface AboutProps {
   summary: CVData["summary"];

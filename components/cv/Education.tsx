@@ -1,5 +1,5 @@
-import { Card, CardHeader, CardContent } from "@/components/ui/card";
-import { Section } from "@/components/ui/section";
+import { Card, CardHeader, CardContent } from "@/components/cv/ui/card";
+import { Section } from "@/components/cv/ui/section";
 import { CVData } from "../../app/api/extract-cv/route";
 
 type Education = CVData["education"][number];

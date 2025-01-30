@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardContent } from "@/components/cv/ui/card";
 import { Section } from "@/components/cv/ui/section";
-import { CVData } from "../../app/api/extract-cv/route";
+import { CVData } from "../../app/api/extract-cv/schema.zod";
 
 type Education = CVData["education"][number];
 

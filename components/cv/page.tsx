@@ -1,4 +1,4 @@
-import { CVData } from "../../app/api/extract-cv/route";
+import { CVData } from "../../app/api/extract-cv/schema.zod";
 import { Education } from "./Education";
 import { Header } from "./Header";
 import { Projects } from "./Projects";

@@ -1,5 +1,5 @@
 import { createClient } from "../../../utils/supabase /server";
-import { CVData } from "./route";
+import { CVData } from "./schema.zod";
 
 // Function to save CV data
 export async function saveCVData(data: CVData) {

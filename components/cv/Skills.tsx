@@ -1,6 +1,6 @@
 import { Badge } from "@/components/cv/ui/badge";
 import { Section } from "@/components/cv/ui/section";
-import { CVData } from "../../app/api/extract-cv/route";
+import { CVData } from "../../app/api/extract-cv/schema.zod";
 import { cn } from "../../lib/utils";
 
 type Skills = readonly string[];

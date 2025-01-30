@@ -1,7 +1,7 @@
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { CVData } from "../../app/api/extract-cv/route";
+import { CVData } from "../../app/api/extract-cv/schema.zod";
 
 interface LocationLinkProps {
   location: CVData["location"];

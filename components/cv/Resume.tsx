@@ -5,7 +5,7 @@ import { Education } from "./Education";
 import { Summary } from "./Summary";
 import { Skills } from "./Skills";
 import { Header } from "./Header";
-import { CVData } from "../../app/api/extract-cv/route";
+import { CVData } from "../../app/api/extract-cv/schema.zod";
 import { CommandMenu } from "./ui/command-menu";
 
 // export const metadata: Metadata = {

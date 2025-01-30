@@ -2,7 +2,7 @@ import { Badge } from "@/components/cv/ui/badge";
 import { Card, CardHeader, CardContent } from "@/components/cv/ui/card";
 import { Section } from "@/components/cv/ui/section";
 import { cn } from "@/lib/utils";
-import { CVData } from "../../app/api/extract-cv/route";
+import { CVData } from "../../app/api/extract-cv/schema.zod";
 
 type WorkExperience = CVData["work"][number];
 type WorkBadges = readonly string[];
